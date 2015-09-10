@@ -1,3 +1,19 @@
+# Git help to be able to contribute
+```
+git clone https://github.com/sidcode/information-retrieval.git
+```
+
+## making changes to the repo
+
+```
+git pull // This step is very important. Get the latest updates from remote repo before pushing your own
+git add .
+git commit -m "mention the changes you make here"
+git push
+```
+
+
+
 #Important - Regarding NLTK with Python
 
 Follow these steps - 
