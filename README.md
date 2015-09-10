@@ -1,3 +1,27 @@
+#Important - Regarding NLTK with Python
+
+Follow these steps - 
+
+```
+pip install nltk
+pip3 install nltk
+
+```
+
+In a Python interpretor-
+```python
+import nltk
+nltk.word_tokenize("this is a string") # this won't work directly
+
+# download the package punkt to make this work 
+# we'll use similar packages throughout the assignment
+
+nltk.download()
+
+# type punkt when prompted
+```
+
+
 # information-retrieval
 IR assignment
 
